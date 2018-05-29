@@ -87,7 +87,7 @@ span span {
   }
   .message h1 {
     font-weight: bold;
-    font-size: 5em;
+    font-size: 4em;
     display: inline;
   }
   .social-media {
@@ -116,7 +116,8 @@ span span {
     border: 3px solid white;
     border-left: 16px solid white;
     display: inline;
-    align-self: flex-start
+    align-self: center;
+    width: 7em;
   }
   .cover h1 {
     font-weight: bold;
