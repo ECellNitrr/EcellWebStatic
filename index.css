@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Varela Round', sans-serif;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-areas: "cover" "message";
+}
+
+.message {
+  grid-area: message;
+  text-align: center;
+}
+
+.message h1 {
+  font-weight: bold;
+  margin-top: 1em;
+}
+
+.social-media {
+  margin-top: 2em;
+}
+.social-media a {
+  padding: .25em;
+}
+.social-media i {
+  padding: .4em;
+  border-radius: 50%;
+  border: 3px solid black;
+  background: black;
+  color: white;
+}
+.social-media a:active {
+  background: white;
+  color: black;
+}
+
+.cover {
+  grid-area: cover;
+  background: url('./cover.jpg');
+  color: white;
+  padding: 2em;
+  padding-top: 20vh;
+  text-align: center;
+}
+
+.cover h1 {
+  display: none;
+}
+
+span span {
+  font-weight: bold;
+}
+
+
+
+/* after small */
+
+@media (min-width: 576px) {
+  .wrapper {
+    position: relative;
+    height: 100vh;
+    display: flex;
+  }
+  .message {
+    padding: 3em;
+    padding-right: 0;
+    text-align: right;
+    z-index: 5;
+    border: 5px dashed black;
+    border-right: 0;
+    display: inline;
+    align-self: flex-end;
+    box-sizing: border-box;
+  }
+  .cover {
+    background: url("./cover.jpg");
+    width: 100vh;
+    background-size: cover;
+  }
+  .message h1 {
+    font-weight: bold;
+    font-size: 5em;
+    display: inline;
+  }
+  .social-media {
+    margin-top: 2em;
+  }
+  .social-media a {
+    padding: .25em;
+  }
+  .social-media i {
+    padding: .4em;
+    border-radius: 50%;
+    border: 3px solid black;
+    background: black;
+    color: white;
+  }
+  .social-media i:hover {
+    background: white;
+    color: black;
+  }
+  .cover {
+    color: white;
+  }
+  .cover>span {
+    padding: 1em;
+    margin: .5em;
+    border: 3px solid white;
+    border-left: 16px solid white;
+    display: inline;
+    align-self: flex-start
+  }
+  .cover h1 {
+    font-weight: bold;
+    font-size: 3em;
+    display: inline;
+  }
+}
