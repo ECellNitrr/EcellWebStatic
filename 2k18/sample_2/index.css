@@ -5,9 +5,19 @@
   font-family: 'Sunflower', sans-serif;
 }
 
+body {
+  background: url("./cover2.jpg") top center;
+}
+
+.message h1 {
+  color: white;
+  text-shadow: 3px black;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
 @media(max-width: 575px) {
   body {
-    background: url("./cover.jpg");
     background-size: cover;
     height: 100vh;
     position: relative;
@@ -31,12 +41,10 @@
     text-align: center;
     margin-top: 1em !important;
   }
-
   .message p {
-    text-align: center;    
+    text-align: center;
     font-size: 1.25em;
   }
-  
   .social-links {
     text-align: center;
     /* position: fixed;
@@ -53,7 +61,6 @@
 
 @media (min-width: 576px) {
   body {
-    background: url("./cover.jpg");
     background-size: cover;
     height: 100vh;
     position: relative;
