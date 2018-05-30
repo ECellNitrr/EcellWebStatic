@@ -1,0 +1,43 @@
+
+body, html, .wrapper {
+    height: 100%;
+    width:100%;
+}
+
+.wrapper {
+    
+     background-image: url('./cover.jpg');
+    background-size: cover;
+    color: white;
+    font-family: 'Bree Serif', serif;
+    font-size: 30px;
+    
+    
+    
+}
+.topleft {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 25px;
+}
+.bottomcenter {
+    position: absolute;
+   top:0;
+    right: 0;
+    font-size: 20px;
+}
+
+.content {
+  position: absolute;
+    font-size: 25px;
+
+    left:50%;
+    right:50%;
+    text-align:center;
+}
+
+hr {
+    margin: auto;
+    width: 50%;
+}
