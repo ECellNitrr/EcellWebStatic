@@ -6,12 +6,12 @@
 }
 
 body {
-  background: url("./cover2.jpg") top center;
+  background: url("./cover2.jpg") top right;
 }
 
 .message h1 {
-  color: white;
-  text-shadow: 3px black;
+  color: rgb(255, 255, 255);
+  text-shadow: 1px grey;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
 }
