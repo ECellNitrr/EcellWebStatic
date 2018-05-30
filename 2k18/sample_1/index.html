@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="title" content="E-Cell, NIT Raipur">
+    <meta name="ROBOTS" content="Entrepreneurship Cell of NIT Raipur is non-profit organization working towards promoting the spirit of Entrepreneurship across Chhattisgarh. It aims to promote a startup-culture among denizens of NIT Raipur and equip them with the necessary tools to do so.">
+    <meta name="description" content="Entrepreneurship Cell of NIT Raipur is non-profit organization working towards promoting the spirit of Entrepreneurship across Chhattisgarh. It aims to promote a startup-culture among denizens of NIT Raipur and equip them with the necessary tools to do so.">
+    <meta name="abstract" content="LEADERS BEYOND BORDERS">
+
+    <meta property="og:title" content="E-Cell | Home" />
+    <meta property="og:type" content="Website" />
+    <meta property="og:image" content="https://ecell.nitrr.ac.in/images/ecell.png" />
+    <meta property="og:url" content="https://ecell.nitrr.ac.in/" />
+    <meta property="og:description" content="Entrepreneurship Cell of NIT Raipur is non-profit organization working towards promoting the spirit of Entrepreneurship across Chhattisgarh. It aims to promote a startup-culture among denizens of NIT Raipur and equip them with the necessary tools to do so." />
+    <meta property="fb:app_id" content="1687828501526245">
+   
+    <meta name="author" content="E-Cell NIT Raipur">
+    <meta name="publisher" content="https://ecell.nitrr.ac.in">
+    <meta name="copyright" content="https://ecell.nitrr.ac.in">
+    <meta name="revisit-after" content="2 days">
+    <link rel="shortcut icon" href="https://ecell.nitrr.ac.in/images/ecell.png">
+
+    <title>Coming Soon | E-Cell NIT Raipur</title>
+
+    <!-- Bootstrap -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-theme.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/animations.css">
+
+    <!-- siimple style -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+    <div class="cloud floating">
+        <img src="assets/img/cloud.png" alt="Scoop Themes">
+    </div>
+
+    <div class="cloud pos1 fliped floating">
+        <img src="assets/img/cloud.png" alt="Scoop Themes">
+    </div>
+
+    <div class="cloud pos2 floating">
+        <img src="assets/img/cloud.png" alt="Scoop Themes">
+    </div>
+
+    <div class="cloud pos3 fliped floating">
+        <img src="assets/img/cloud.png" alt="Scoop Themes">
+    </div>
+
+
+    <div id="wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <img src="assets/img/ecell.png" alt="E-Cell NIT Raipur Logo" style="width:15%">
+                    <h1>E-Cell NIT Raipur</h1>
+                    <h2 class="subtitle">We're working hard to launch our new website and we'll be ready very soon</h2>
+                    <P style="color:#fff; font-weight: bold">Follow us on our social media profiles for latest updates</P>
+             
+                    <!-- <form class="form-inline validate signup" action="http://scoopthemes.us8.list-manage.com/subscribe/post-json?u=c535e62cabdc2bfeb87bff6de&amp;id=d969b07f82&c=?" method="get" role="form">
+                        <div class="form-group">
+                            <input type="email" class="form-control" name="EMAIL" id="exampleInputEmail1" placeholder="Enter your email address">
+                        </div>
+                        <input type="submit" name="subscribe" value="Get notified!" class="btn btn-theme">
+                    </form> -->
+                    <br/>
+                </div>
+                <div class="col-sm-12 align-center">
+                    <ul class="social-network social-circle">
+                        <li><a href="https://www.facebook.com/ecellnitrr" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li><a href="https://twitter.com/ecellnitrr" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li><a href="https://www.instagram.com/ecell.nitraipur/" class="icoTwitter" title="Instagram"><i class="fa fa-instagram"></i></a>
+                        </li>
+                        <li><a href="https://www.linkedin.com/company/entrepreneurship-cell-nit-raipur/" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-lg-offset-3">
+                    <p class="copyright">Copyright &copy; 2018 - <a href="https://ecell.nitrr.ac.in">Entrepreneurship Cell NIT Raipur</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="http://downloads.mailchimp.com/js/jquery.form-n-validate.js"></script>
+    <script>
+        
+$(document).ready( function () {
+    $('#wrapper').height($(document).height());
+    // I only have one form on the page but you can be more specific if need be.
+    var $form = $('form');
+
+    if ( $form.length > 0 ) {
+        $('form input[type="submit"]').bind('click', function ( event ) {
+            if ( event ) event.preventDefault();
+            // validate_input() is a validation function I wrote, you'll have to substitute this with your own.
+            if ( $form.validate() ) { register($form); }
+        });
+    }
+});
+
+function appendResult(userText , className, iconClass){
+  var resultHTML = "<div class='stretchLeft result "+ className + "'>" + userText + " <span class='fa fa-" + iconClass + "'></span>" + "</div>";
+  $('body').append(resultHTML);
+  $('.result').delay(10000).fadeOut('1000');
+}
+
+
+function register($form) {
+    $.ajax({
+        type: $form.attr('method'),
+        url: $form.attr('action'),
+        data: $form.serialize(),
+        cache       : false,
+        dataType    : 'json',
+        contentType: "application/json; charset=utf-8",
+        error       : function(err) { alert("Could not connect to the registration server. Please try again later."); },
+        success     : function(data) {
+            if (data.result != "success") {
+                appendResult('Wrong Email Or You Are Already Registered, Try Again', 'error', 'exclamation');
+            } else {
+                // It worked, carry on...
+                appendResult('Successful, Check Your Email For Confirmation ', 'success', 'check');
+            }
+        }
+    });
+}
+    </script>
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      
+        ga('create', 'UA-104074998-1', 'auto');
+        ga('send', 'pageview');
+      
+    </script>
+
+</body>
+
+</html>
