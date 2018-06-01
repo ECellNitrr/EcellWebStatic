@@ -1,14 +1,18 @@
 
-body, html, .wrapper {
-    height: 100%;
-    width:100%;
+body, html  {
+  height:100%;
+  margin: 0;
 }
 
-.wrapper {
+.bgimage {
 
      background-image: url('./cover.jpg');
-    background-size: cover;
-
+     height: 100%;
+       background-position: center;
+       background-size: cover;
+       position: relative;
+       color: white;
+       font-family: 'Bree Serif', serif;
 
 
 
@@ -16,47 +20,44 @@ body, html, .wrapper {
 
 #demo {
   font-size: 25px;
-  color:#33CC99;
+  color:#ADD8E6;
   font-family: 'Nanum Gothic Coding', monospace;
 }
+
 .topleft {
-    position: absolute;
-    top: 0;
-    left: 2;
-    font-size: 20px;
+  position: absolute;
+  top: 0;
+  left: 16px;
     font-family: 'Nanum Gothic Coding', monospace;
     color:white;
+    font-size: 20px;
 
 }
 .bottomcenter {
-    position: absolute;
-   top:0;
-    right: 0;
-    font-size: 15px;
+  position: absolute;
+  top: 0;
+  right:15px;
     font-family: 'Nanum Gothic Coding', monospace;
     color:white;
+    font-size: 20px;
 }
 
-.flex-container {
-  display:flex;
-  flex-wrap:wrap;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  margin-top: 50%;
+.atcenter {
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+ color:white;
 }
 
-#this {
-  font-family: 'Nanum Gothic Coding', monospace;
-  font-size: 25px;
-}
-
-#main {
-  font-family: 'Bree Serif', serif;
-}
 
 hr {
     margin: auto;
     width: 50%;
+}
+
+i {
+  float: right;
+   font-size: 5px;
 }
